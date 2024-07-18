@@ -1,4 +1,6 @@
+/* Font section */
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/miama');
 
 * {
     margin: 0;
@@ -9,34 +11,19 @@
 body {
     font-family: "Inter", sans-serif;
     font-weight: 400;
-    background-color: black
+    background-color: black;
+}
+
+/* Nav related styles */
+
+header {
+    background: linear-gradient(180.00deg, rgb(17, 17, 17), rgba(119, 119, 119, 0) 100%);
 }
 
 h3 {
     color: rgb(230, 83, 60);
     font-size: 2.25rem;
     font-weight: 800;
-}
-
-/* Shared styles */
-.display-flex {
-    display: flex;
-}
-
-.text-white {
-    color: white;
-}
-
-.text-grey {
-    color: rgba(255, 255, 255, 0.5);
-}
-
-.bg-light {
-    background-color: rgb(34, 34, 34);
-}
-
-.bg-gradient {
-    background-color: rgb(17, 17, 17) rgba(119, 119, 119, 0);
 }
 
 .btn-primary {
@@ -47,11 +34,12 @@ h3 {
     border: none;
 }
 
-/* Nav related styles */
 .navbar {
+    display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5% 10%;
+    padding-top: 5%;
+    margin: 0 10%;
 }
 
 .nav-links li {
@@ -63,13 +51,136 @@ h3 {
 .nav-links a {
     text-decoration: none;
     font-size: 1.125rem;
+    color: white;
 }
 
 .nav-links {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 40px;
+    display: flex;
     justify-content: space-between;
     align-items: center;
     width: 50%;
     height: 50%;
+}
+
+/* Banner related styles */
+.banner-content {
+    max-width: 32.5rem;
+}
+
+.banner-title {
+    font-size: 4.875rem;
+    font-weight: 900;
+    color: white;
+    line-height: 80%;
+    margin-top: 2rem;
+    margin-bottom: 1.75rem;
+
+}
+
+#shape {
+    font-family: 'Miama', sans-serif;
+    font-size: 4.875rem;
+    font-weight: 400;
+}
+
+p {
+    font-size: 1rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.banner-description {
+    margin-bottom: 1.75rem;
+}
+
+.btn-secondary {
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 40px;
+    padding: 16px 40px 16px 40px;
+    background: none;
+    color: white;
+}
+
+.joinclub-btn {
+    padding: 16px 40px 16px 40px;
+    margin-right: 2%;
+}
+
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 5% 10%;
+}
+
+.banner-image {
+    max-width: 22rem;
+    max-height: 36rem;
+}
+
+.banner-image img {
+    width: 100%;
+    height: 100%
+}
+
+.video-badge {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    max-width: 10rem;
+    max-height: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    position: relative;
+    padding: 0.8rem 0;
+    left: 38rem;
+    top: -11rem;
+}
+
+.circle {
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 50%;
+    background: rgb(230, 83, 60);
+}
+
+.video-badge-title {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.video-badge-description {
+    font-size: 1rem;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.video-badge2 {
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+    max-width: 9rem;
+    max-height: 4.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    padding: 0.8rem 0;
+    left: 53rem;
+    top: -27rem;
+}
+
+.video-badge2-title {
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+}
+
+.video-badge2-description {
+    font-size: 0.8rem;
+    color: rgba(239, 237, 232, 0.65);
 }
