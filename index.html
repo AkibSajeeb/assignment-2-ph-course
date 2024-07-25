@@ -4,6 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font awesome cdn -->
+    <script src="https://kit.fontawesome.com/c7b4b479c4.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="./styles/style.css" class="css">
     <title>Assignment 2</title>
 </head>
@@ -22,6 +24,7 @@
                 <li><a href="#">Contact</a></li>
                 <li><a href="#">About</a></li>
             </ul>
+            <div class="ham-burger"><i class="fa-solid fa-bars"></i></div>
         </nav>
         <!-- Navbar Finished Here -->
 
@@ -31,8 +34,11 @@
                 <h1 class="banner-title">Get body in <span id="shape">shape</span> & stay healthy</h1>
                 <p class="banner-description">A huge selection of health and fitness content, healthy recipes <br> and
                     transformation stories to help you get fit and stay fit!</p>
-                <button class="btn-primary joinclub-btn">Join Club Now!</button>
-                <button class="btn-secondary">Download App</button>
+                <div class="button">
+                    <button class="btn-primary join-club-btn" id="join-club">Join Club Now!</button>
+                    <button class="btn-primary join-club-btn" id="join-now">Join Now!</button>
+                    <button class="btn-secondary">Download App</button>
+                </div>
             </div>
 
             <div class="banner-image">
@@ -181,22 +187,22 @@
 
         <div class="trainer-container">
             <div class="trainer-gallery">
-                <div class="trainer-img">
+                <div class="trainer-img hidden">
                     <img src="./images/trainer1.png" alt="Jerome Bell">
                     <h6>Jerome Bell</h6>
                     <p>Trainer</p>
                 </div>
                 <div class="trainer-img">
                     <img src="./images/trainer2.png" alt="Cameroon Williamson">
-                    <h6>Cameroon Williamson</h6>
+                    <h6 class="ellipsis">Cameroon Williamson</h6>
                     <p>Trainer</p>
                 </div>
-                <div class="trainer-img">
+                <div class="trainer-img hidden">
                     <img src="./images/trainer3.png" alt="Darrell Steward">
                     <h6>Darrell Steward</h6>
                     <p>Trainer</p>
                 </div>
-                <div class="trainer-img">
+                <div class="trainer-img hidden">
                     <img src="./images/trainer4.png" alt="Dianne Russell">
                     <h6>Dianne Russell</h6>
                     <p>Trainer</p>
@@ -204,6 +210,11 @@
                 <div class="trainer-img">
                     <img src="./images/trainer5.png" alt="Cody Fisher">
                     <h6>Cody Fisher</h6>
+                    <p>Trainer</p>
+                </div>
+                <div class="trainer-img hide">
+                    <img src="./images/trainer3.png" alt="Darrell Steward">
+                    <h6>Darrell Steward</h6>
                     <p>Trainer</p>
                 </div>
                 <div class="trainer-img">
@@ -217,7 +228,7 @@
     <!-- Meet our team section finished here -->
 
     <!-- Footer section start here -->
-    <footer class="">
+    <footer>
         <div class="footer-container">
             <div class="footer-content">
                 <div class="logo">
