@@ -14,6 +14,7 @@ body {
     background-color: black;
 }
 
+
 /* Nav related styles */
 
 header {
@@ -47,13 +48,13 @@ h3 {
     margin: 0 8%;
 }
 
-.nav-links li {
+li {
     list-style: none;
     padding: 8px;
     margin-right: 5%;
 }
 
-.nav-links a {
+a {
     text-decoration: none;
     font-size: 1.125rem;
     color: white;
@@ -93,6 +94,7 @@ h3 {
 p {
     font-size: 1rem;
     color: rgba(255, 255, 255, 0.5);
+    text-align: left;
 }
 
 .banner-description {
@@ -199,7 +201,8 @@ h2 {
     color: white;
 }
 
-.habits h2 {
+.habits,
+h2 {
     text-align: center;
     margin-top: 8rem;
     margin-bottom: 2rem;
@@ -210,7 +213,6 @@ p {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    line-height: 1.5rem;
     margin-bottom: 5%;
 }
 
@@ -259,7 +261,7 @@ p {
     align-items: center;
     border-radius: 18px;
     background: rgb(34, 34, 34);
-    margin: 5% 8%;
+    margin: 6% 8%;
     justify-items: center;
     position: relative;
 }
@@ -269,7 +271,7 @@ p {
     width: 25rem;
     height: 22rem;
     right: 20px;
-    top: 20px;
+    top: 4px;
     border-radius: 18px;
     transform: scale(0.8);
 }
@@ -282,7 +284,11 @@ p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     text-align: left;
-    padding-top: 3%;
+}
+
+.run-content h2 {
+    text-align: left;
+    margin-top: 0;
 }
 
 .run-content button {
@@ -299,6 +305,10 @@ p {
     text-align: left;
 }
 
+.bmi-title h2 {
+    text-align: left;
+}
+
 .bmi-title {
     margin: 8% 22%;
 }
@@ -310,6 +320,7 @@ p {
 .bmi-chart h2 {
     font-size: 1.75rem;
     margin: 10% 14%;
+    text-align: left;
 }
 
 table {
@@ -345,6 +356,7 @@ td {
     font-weight: 900;
     margin-top: 8%;
     margin-bottom: 2%;
+    text-align: left;
 }
 
 .calculate-bmi p {
@@ -394,4 +406,68 @@ select {
 .row2,
 .row3 {
     padding: 12px 0;
+}
+
+/* Meet our team section styles */
+.team,
+h2 {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+
+.team,
+p {
+    font-size: 0.8rem;
+    color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    margin-bottom: 5%;
+}
+
+
+/* Footer section styles */
+
+.logo p {
+    text-align: left;
+    padding-top: 20px;
+    width: 120%;
+}
+
+.link h4 {
+    color: white;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+    color: rgb(255, 255, 255);
+    padding-bottom: 40px;
+}
+
+.link a {
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    padding-bottom: 20px;
+    text-align: left
+}
+
+.copyright p {
+    font-size: 1.2rem;
+    text-align: center;
+    padding: 2.5rem;
+}
+
+.horizontal-line {
+    border: 2px solid rgba(255, 255, 255, 0.1);
+    margin: 0 8%;
+}
+
+.footer-content {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 5% 8%;
+    gap: 7rem;
+}
+
+.footer-container {
+    width: 100%;
+    background: rgba(255, 255, 255, 0.1);
+padding-top: 2rem;
 }
