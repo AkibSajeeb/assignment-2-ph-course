@@ -36,7 +36,7 @@ h3 {
     color: white;
     border: none;
     font-weight: 600;
-    font-size: 1.125rem;
+    font-size: 1.25rem;
     text-align: center;
 }
 
@@ -50,7 +50,7 @@ h3 {
 
 li {
     list-style: none;
-    padding: 8px;
+    padding: 0.5rem;
     margin-right: 5%;
 }
 
@@ -67,7 +67,6 @@ a {
     justify-content: space-between;
     align-items: center;
     width: 50%;
-    height: 50%;
 }
 
 /* Banner related styles */
@@ -76,11 +75,10 @@ a {
 }
 
 .banner-title {
-    font-size: 4.875rem;
+    font-size: 5rem;
     font-weight: 900;
     color: white;
     line-height: 100%;
-    margin-top: 1rem;
     margin-bottom: 1.75rem;
 }
 
@@ -91,7 +89,7 @@ a {
 }
 
 p {
-    font-size: 1rem;
+    font-size: 1.25rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: left;
 }
@@ -99,6 +97,8 @@ p {
 .banner-description {
     margin-bottom: 1.75rem;
     text-align: left;
+    width: 75%;
+    margin-left: 0;
 }
 
 .btn-secondary {
@@ -108,18 +108,19 @@ p {
     background: none;
     color: white;
     font-weight: 600;
+    font-size: 1.25rem;
 }
 
 .join-club-btn {
     padding: 16px 40px 16px 40px;
-    margin-right: 2%;
+    margin-right: 4%;
 }
 
 .banner {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 5% 8%;
+    margin: 2% 8%;
     position: relative;
 }
 
@@ -136,16 +137,16 @@ p {
 .video-badge {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(1rem);
     background: rgba(48, 48, 48, 0.54);
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    padding: 0.8rem 0.5rem;
-    gap: 0.5rem;
+    padding: 1.25rem 1.25rem;
+    gap: 1rem;
     position: absolute;
-    left: 62%;
-    top: 77%;
+    left: 63%;
+    top: 75%;
 }
 
 .circle {
@@ -169,15 +170,15 @@ p {
 .video-badge2 {
     border: 1px solid rgba(255, 255, 255, 0.1);
     border-radius: 12px;
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(1rem);
     background: rgba(48, 48, 48, 0.54);
     display: flex;
     justify-content: center;
     align-items: center;
     position: absolute;
-    padding: 0.6rem;
-    right: 2%;
-    top: 42%;
+    padding: 1.25rem 1.5rem;
+    right: 3%;
+    top: 38%;
 }
 
 .video-badge2-title {
@@ -210,12 +211,14 @@ p {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    margin-bottom: 5%;
+    padding-bottom: 8%;
+    width: 60%;
+    margin: 0 auto;
 }
 
 .round-images img {
-    width: 12rem;
-    height: 12rem;
+    width: 14rem;
+    height: 14rem;
     border-radius: 50%;
     border: 6px solid rgba(255, 255, 255, 0.1);
 
@@ -226,14 +229,13 @@ p {
     font-weight: 600;
     color: white;
     margin-top: 1rem;
-    margin-bottom: 0.4rem;
+    padding-bottom: 0.4rem;
 }
 
 .round-images p {
     font-size: 0.8rem;
     font-weight: 400;
     color: rgba(255, 255, 255, 0.5);
-    max-width: 14rem;
     text-align: center;
     line-height: 1.125rem;
 }
@@ -247,8 +249,9 @@ p {
 .round-images {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2.5rem;
-    margin: 0 auto;
+    gap: 0.5rem;
+    margin: -5% 8%;
+    padding-bottom: 5rem;
 }
 
 /* Run Section styles */
@@ -266,17 +269,20 @@ p {
     width: 25rem;
     height: 22rem;
     border-radius: 18px;
-    transform: scale(0.8);
+    margin: 3rem;
 }
 
 .run-content {
-    padding: 5%;
+    padding: 3rem;
 }
 
 .run-content p {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
+    line-height: 1.5rem;
     text-align: left;
+    margin-left: 0;
+    width: 50%;
 }
 
 .run-content h2 {
@@ -289,7 +295,7 @@ p {
     padding: 16px 40px 16px 40px;
     width: 14rem;
     height: 3.375rem;
-    margin-top: 5%;
+    margin-top: 2.5rem;
     font-size: 1.125rem;
     font-weight: 600;
 }
@@ -298,6 +304,8 @@ p {
 .bmi-title p {
     text-align: left;
     margin-left: 8%;
+    width: 60%;
+    line-height: 1.5rem;
 }
 
 .bmi-title h2 {
@@ -305,7 +313,7 @@ p {
 }
 
 .bmi-title {
-    margin: 8% 20%;
+    margin: 3% 20%;
 }
 
 .bmi-content {
@@ -314,15 +322,15 @@ p {
 
 .bmi-chart h2 {
     font-size: 1.75rem;
-    margin: 10% 14%;
+    margin: 8% 14%;
     text-align: left;
 }
 
 table {
     border: 1px solid rgba(255, 255, 255, 0.1);
-    width: 18rem;
+    width: 20rem;
     height: 8rem;
-    margin: 10% 14%;
+    margin: 5% 14%;
     border-collapse: collapse;
 }
 
@@ -331,14 +339,14 @@ th {
     font-size: 1rem;
     font-weight: 500;
     text-align: left;
-    padding: 14px;
+    padding: 1rem;
 }
 
 td {
     color: rgba(255, 255, 255, 0.5);
     font-size: 0.8rem;
     font-weight: 400;
-    padding: 14px;
+    padding: 1rem;
 }
 
 th,
@@ -357,6 +365,9 @@ td {
 
 .calculate-bmi p {
     text-align: left;
+    line-height: 1.5rem;
+    width: 68%;
+    margin-left: 0;
 }
 
 .bmi-content {
@@ -364,10 +375,14 @@ td {
     grid-template-columns: repeat(2, 1fr);
 }
 
+input::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
 .row1 input {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 40px 12px 20px;
+    padding: 1rem 4rem 1rem 1rem;
     border: none;
 }
 
@@ -375,40 +390,40 @@ td {
 select {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 12px 40px 12px 20px;
+    padding: 1rem 4rem 1rem 1rem;
     border: none;
 }
 
 .row2 select {
-    width: 320px;
+    width: 15.2rem;
     color: rgba(255, 255, 255, 0.6);
 }
 
 .row3 select {
-    width: 650px;
+    width: 30.4rem;
     color: rgba(255, 255, 255, 0.6);
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 #submit-btn {
     padding: 16px 40px 16px 40px;
-    width: 12rem;
+    width: 15rem;
     align-items: center;
     justify-content: center;
-    margin-bottom: 8%;
+    margin-bottom: 6%;
 }
 
 .row1,
 .row2,
 .row3 {
-    padding: 12px 0;
+    padding: 0.5rem 0rem;
 }
 
 /* Meet our team section styles */
 .team,
 h2 {
-    margin-top: 6%;
-    margin-bottom: 1rem;
+    margin-top: 5%;
+    margin-bottom: 1.5rem;
 }
 
 .team,
@@ -416,14 +431,14 @@ p {
     font-size: 0.8rem;
     color: rgba(255, 255, 255, 0.5);
     text-align: center;
-    margin-bottom: 5%;
+    line-height: 1.5rem;
+    padding-bottom: 0;
 }
-
 
 .trainer-gallery img {
     border-radius: 18px;
-    width: 100%;
-    height: 14rem;
+    width: 21rem;
+    height: 17rem;
     filter: brightness(80%);
 }
 
@@ -434,9 +449,8 @@ p {
 .trainer-gallery h6 {
     font-weight: 700;
     color: white;
-    font-size: 1rem;
+    font-size: 1.25rem;
     letter-spacing: 0.03rem;
-    padding-bottom: 0.4rem;
     position: absolute;
     top: 75%;
     left: 5%;
@@ -446,6 +460,8 @@ p {
     position: absolute;
     top: 85%;
     left: 5%;
+    font-size: 1rem;
+    text-align: left;
 }
 
 .trainer-gallery {
@@ -453,20 +469,22 @@ p {
     grid-template-columns: repeat(3, 1fr);
     gap: 1.25rem;
     padding: 1.25rem;
+    margin: 2% auto;
 }
 
 .trainer-container {
     border-radius: 18px;
     background: rgba(255, 255, 255, 0.1);
-    margin: 6% 8%;
+    margin: 6% 14%;
 }
 
 /* Footer section styles */
 
 .logo p {
     text-align: left;
-    padding-top: 20px;
-    width: 120%;
+    padding-top: 1rem;
+    width: 140%;
+    line-height: 1.5rem;
 }
 
 .link h4 {
@@ -475,39 +493,39 @@ p {
     font-weight: 700;
     text-align: left;
     color: rgb(255, 255, 255);
-    padding-bottom: 40px;
+    padding-bottom: 2rem;
 }
 
 .link a {
     color: rgba(255, 255, 255, 0.5);
     font-size: 1.5rem;
-    padding-bottom: 20px;
+    padding-bottom: 1rem;
     text-align: left
 }
 
 .copyright p {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
     text-align: center;
-    padding: 1rem;
+    padding-bottom: 1.5rem;
 }
 
 .horizontal-line {
     border: 2px solid rgba(255, 255, 255, 0.1);
-    margin: 8% 8% 2% 8%;
+    margin: 5% 8% 2% 8%;
 }
 
 .footer-content {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin: 5% 8%;
-    gap: 7rem;
+    margin: 3% 8%;
+    gap: 18rem;
 }
 
 .footer-container {
     width: 100%;
     background: rgba(255, 255, 255, 0.1);
     padding-top: 2rem;
-    height: 100vh;
+    height: 63vh;
 }
 
 .ham-burger,
@@ -535,12 +553,24 @@ p {
     }
 
     .banner-title {
-        font-size: 2.25rem;
-        line-height: 120%;
+        font-size: 3rem;
+        line-height: 110%;
+        margin-top: 5%;
+    }
+
+    .banner-description {
+        margin-bottom: 1rem;
+        font-size: 0.7rem;
+        line-height: 1rem;
+    }
+
+    p {
+        font-size: 0.8rem;
+        line-height: 1rem;
     }
 
     #shape {
-        font-size: 4rem;
+        font-size: 5rem;
     }
 
     .banner {
@@ -553,8 +583,8 @@ p {
 
     #join-now {
         display: block;
-        font-size: 0.8rem;
-        padding: 0.5rem 0.8rem;
+        font-size: 1rem;
+        padding: 0.8rem 2rem;
     }
 
     #join-club {
@@ -567,58 +597,30 @@ p {
     }
 
     .btn-secondary {
-        padding: 0.5rem 0.8rem;
-        font-size: 0.8rem;
-    }
-
-
-    .video-badge {
-        top: 115%;
-        left: 5%;
-        padding: 0.5rem 0.25rem;
-        gap: 0.25rem;
-
-    }
-
-    .video-badge-title {
+        padding: 1rem 1.5rem;
         font-size: 1rem;
     }
 
-    .video-badge-description {
-        font-size: 0.4rem;
-    }
-
-    .video-badge2-title {
-        font-size: 1.25rem;
-    }
-
-    .video-badge2-description {
-        font-size: 0.5rem;
-        letter-spacing: -0.03rem;
-    }
-
-    .circle {
-        width: 1.5rem;
-        height: 1.5rem;
+    .video-badge {
+        top: 115%;
+        left: 8%;
     }
 
     .video-badge2 {
-        top: 88%;
-        right: 2%;
-        padding: 0.5rem 0.25rem;
+        top: 80%;
+        right: 3%;
     }
 
     .habits,
     h2 {
-        padding-top: 100%;
-        font-size: 1.08rem;
-        margin-bottom: 5%;
+        padding-top: 65%;
+        font-size: 1.5rem;
+        margin-bottom: 2%;
     }
 
     .habits,
     p {
-        font-size: 0.4rem;
-        margin-bottom: 2rem;
+        width: 80%;
     }
 
     .round-images,
@@ -627,75 +629,86 @@ p {
         margin: 0 auto;
     }
 
+    .round-images {
+        gap: 3rem;
+        padding-bottom: 3rem;
+    }
+
+    .round-images p {
+        width: 60%;
+        line-height: 1.125rem;
+    }
+
     .run {
         flex-direction: column;
+        height: 33rem;
     }
 
     .run-image img {
-        width: 15rem;
+        width: 17rem;
         height: 12rem;
     }
 
     .run-content button {
-        padding: 0rem 0.8rem;
-        width: 12rem;
-        height: 2rem;
+        padding: 0rem 1rem;
+        width: 16rem;
+        height: 3rem;
         margin-top: 0% auto;
         font-size: 1rem;
     }
 
     .run-content {
-        padding: 0 6%;
+        padding: 0 8%;
     }
 
     .run-content h2 {
         margin-top: 1rem;
     }
 
+    .run-content p {
+        width: 100%;
+    }
+
     .bmi-content {
         grid-template-columns: repeat(1, 1fr);
         padding: 0;
+        width: 100%;
     }
 
     .bmi-title {
         margin-top: 10%;
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
-    .bmi-title,
-    .calculate-bmi p {
-        font-size: 0.2rem;
+    .bmi-title p {
+        font-size: 0.8rem;
+        line-height: 1rem;
+        width: 100%;
+        padding-bottom: 1rem;
     }
 
     .bmi-chart h2 {
         font-size: 1rem;
         padding: 0;
-        margin: 5% 8%;
+        margin: 5% 9%;
         text-align: left;
     }
 
     table {
-        width: 13rem;
-        height: 8rem;
-        margin: 2% 8%;
-    }
-
-    th {
-        padding: 10px;
-    }
-
-    td {
-        padding: 10px;
+        width: 18rem;
+        margin: 2% 9%;
     }
 
     .calculate-bmi h2 {
-        font-size: 1.25rem;
+        font-size: 1rem;
         padding: 0;
-        margin: 5% 8%;
+        margin: 5% 9%;
     }
 
     .calculate-bmi p {
-        margin: 5% 8%;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        margin: 5% 9%;
     }
 
     .row2,
@@ -703,7 +716,7 @@ p {
         display: flex;
         justify-content: space-between;
         gap: 20px;
-        margin: 0 6%;
+        margin: 0 7%;
     }
 
     .row2 input,
@@ -721,41 +734,43 @@ p {
     }
 
     .row3 select {
-        width: 90%;
-        margin: 0 6%;
+        width: 88%;
+        margin: 0 7%;
     }
 
     #submit-btn {
-        margin: 8% 6%;
+        margin: 8% 7%;
     }
 
     .row1,
     .row2,
     .row3 {
-        padding: 8px 0;
+        padding: 0.5rem 0;
     }
 
     .team,
     h2 {
-        padding: 0;
+        padding: 0.2rem;
     }
 
     .team,
     p {
-        font-size: 0.5rem;
+        font-size: 0.8rem;
+        line-height: 1rem;
+        width: 100%;
     }
 
     .trainer-gallery {
         grid-template-columns: repeat(1, 1fr);
     }
 
-    .trainer-gallery img {
-        height: 100%;
+    .trainer-container {
+        margin: 6% 8%;
     }
 
-    .trainer-gallery h6 {
-        font-size: 0.8rem;
-        letter-spacing: 0rem;
+    .trainer-gallery img {
+        width: 17rem;
+        height: 100%;
     }
 
     .hidden {
@@ -773,12 +788,6 @@ p {
         text-overflow: ellipsis;
     }
 
-    .logo p {
-        padding-top: 1rem;
-        width: 100%;
-    }
-
-
     .link a {
         font-size: 1rem;
     }
@@ -787,18 +796,21 @@ p {
         font-size: 0.8rem;
         text-align: left;
         padding: 1rem;
-        margin-left: 2%;
+        margin-left: 3%;
     }
 
     .footer-content {
         grid-template-columns: repeat(1, 1fr);
-        margin-top: 5%;
+        margin-top: 3%;
         gap: 1rem;
     }
 
+    .logo p {
+        width: 100%;
+    }
+
     .footer-container {
-        margin-top: 20%;
-        padding-top: 1rem;
-        height: 150vh;
+        height: 108vh;
+        width: 100%;
     }
 }
